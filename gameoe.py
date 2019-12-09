@@ -8,8 +8,12 @@ player = False
 
 while player == False:
     player = input("Do you choose 1 or 2?")
+    
     move = int(player) + int(comp_move)
+    
     print("I choose", comp_move)
+    
+    
     if move % 2 == 0:
         print("Even")
     else:
